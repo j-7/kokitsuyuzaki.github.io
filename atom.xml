@@ -4,7 +4,7 @@
   <title><![CDATA[Koki Tsuyuzaki/露崎弘毅]]></title>
   <link href="http://kokitsuyuzaki.github.io/atom.xml" rel="self"/>
   <link href="http://kokitsuyuzaki.github.io/"/>
-  <updated>2015-12-28T13:18:04+09:00</updated>
+  <updated>2015-12-28T13:33:51+09:00</updated>
   <id>http://kokitsuyuzaki.github.io/</id>
   <author>
     <name><![CDATA[Koki Tsuyuzaki]]></name>
@@ -12,5 +12,20 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[ホームページ移動]]></title>
+    <link href="http://kokitsuyuzaki.github.io/blog/2015/12/28/homupeziyi-dong/"/>
+    
+    <updated>2015-12-28T13:28:04+09:00</updated>
+    <id>http://kokitsuyuzaki.github.io/blog/2015/12/28/homupeziyi-dong</id>
+    
+    <content type="html"><![CDATA[<p>ホームページを
+<a href="http://kokitsuyuzaki.site44.com">http://kokitsuyuzaki.site44.com</a>
+から移動しました。</p>
+]]></content>
+    
+  </entry>
   
 </feed>
