@@ -4,7 +4,7 @@
   <title><![CDATA[Koki Tsuyuzaki/露崎弘毅]]></title>
   <link href="http://kokitsuyuzaki.github.io/atom.xml" rel="self"/>
   <link href="http://kokitsuyuzaki.github.io/"/>
-  <updated>2015-12-28T14:13:59+09:00</updated>
+  <updated>2015-12-28T14:22:01+09:00</updated>
   <id>http://kokitsuyuzaki.github.io/</id>
   <author>
     <name><![CDATA[Koki Tsuyuzaki]]></name>
@@ -12,6 +12,90 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    
+    <title type="html"><![CDATA[このページの作成手順]]></title>
+    <link href="http://kokitsuyuzaki.github.io/blog/2015/12/28/kofalsepezifalsezuo-cheng-shou-shun/"/>
+    
+    <updated>2015-12-28T14:17:42+09:00</updated>
+    <id>http://kokitsuyuzaki.github.io/blog/2015/12/28/kofalsepezifalsezuo-cheng-shou-shun</id>
+    
+    <content type="html"><![CDATA[<h3>SSHの設定</h3>
+
+<p>ssh-keygen -t rsa -C &ldquo;My e-mail address of GitHub account&rdquo;
+ssh-add ~/.ssh/id_rsa
+chmod 0600 ~/.ssh/id_rsa</p>
+
+<h3>GitHubのアカウントを作成（kokitsuyuzaki）</h3>
+
+<h3>GitHub側で公開鍵を置く</h3>
+
+<p>pbcopy &lt; ~/.ssh/id_rsa.pub # GitHubのSetting/SSH keys/にはりつけておく</p>
+
+<h3>GitHub上で、kokitsuyuzaki.github.ioというリポジトリを作成</h3>
+
+<h3>octopressを取得</h3>
+
+<p>git clone git://github.com/imathis/octopress.git octopress
+cd octopress</p>
+
+<h3>インストール</h3>
+
+<p>bundle &ndash;path vendor/bundle
+bundle exec rake install</p>
+
+<h3>プレビュー</h3>
+
+<p>bundle exec rake preview # 試しに"<a href="http://localhost:4000/">http://localhost:4000/</a>&ldquo;にアクセスしてみる</p>
+
+<h3>初期設定</h3>
+
+<p>bundle exec rake setup_github_pages # &ldquo;<a href="https://github.com/kokitsuyuzaki/kokitsuyuzaki.github.io">https://github.com/kokitsuyuzaki/kokitsuyuzaki.github.io</a>"をコピペ</p>
+
+<h3>テーマをmnmlに変更する</h3>
+
+<p>git clone git://github.com/ioveracker/mnml.git .themes/mnml</p>
+
+<p>rake install[&lsquo;mnml&rsquo;]</p>
+
+<p>rake generate</p>
+
+<p>rake deploy</p>
+
+<h3>_config.yml, source以下のディレクトリ、ファイルを編集</h3>
+
+<h3>GitHubにコミット</h3>
+
+<p>rake gen_deploy</p>
+
+<h3>以降は新しくブログを作成するたびに以下を実行</h3>
+
+<p>bundle exec rake new_post</p>
+
+<h3>参考</h3>
+
+<ul>
+<li><a href="http://blog.shiroyama.us/blog/2014/02/26/octopress/">http://blog.shiroyama.us/blog/2014/02/26/octopress/</a></li>
+</ul>
+
+
+<h3>Octopress Theme</h3>
+
+<ul>
+<li><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</a></li>
+</ul>
+
+
+<h3>mnml</h3>
+
+<ul>
+<li><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</a></li>
+</ul>
+
+]]></content>
+    
+  </entry>
   
   <entry>
     
