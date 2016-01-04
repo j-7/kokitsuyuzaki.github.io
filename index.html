@@ -9,9 +9,9 @@
   <meta name="author" content="Koki Tsuyuzaki">
 
   
-  <meta name="description" content="SSHの設定 ssh-keygen -t rsa -C &ldquo;My e-mail address of GitHub account&rdquo;
-ssh-add ~/.ssh/id_rsa
-chmod 0600 ~/.ssh/id_rsa GitHubのアカウントを作成（ &hellip;">
+  <meta name="description" content="露崎弘毅（Tsuyuzaki Koki）
+博士（薬科学）
+Computational Biologist, Bioinformatics scientist, Software Developer News 2015/1/4 : ホームページをhttp://kokitsuyuzaki. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -76,159 +76,14 @@ chmod 0600 ~/.ssh/id_rsa GitHubのアカウントを作成（ &hellip;">
 <FONT size="4">博士（薬科学）</FONT></br>
 <FONT size="4">Computational Biologist, Bioinformatics scientist, Software Developer</FONT></br>
 
-<div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
-  
-    
-      <h1 class="entry-title"><a href="/blog/2015/12/28/kofalsepezifalsezuo-cheng-shou-shun/">このページの作成手順</a></h1>
-      
-      
-    
-      <p class="meta">
-        
+</br>
+</br>
+<h1>News</h1>
+<li>
+ 2015/1/4 : ホームページを<a href = "http://kokitsuyuzaki.site44.com">http://kokitsuyuzaki.site44.com</a>から移設しました
+</li>
 
 
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-12-28T14:17:42+09:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3>SSHの設定</h3>
-
-<p>ssh-keygen -t rsa -C &ldquo;My e-mail address of GitHub account&rdquo;
-ssh-add ~/.ssh/id_rsa
-chmod 0600 ~/.ssh/id_rsa</p>
-
-<h3>GitHubのアカウントを作成（kokitsuyuzaki）</h3>
-
-<h3>GitHub側で公開鍵を置く</h3>
-
-<p>pbcopy &lt; ~/.ssh/id_rsa.pub # GitHubのSetting/SSH keys/にはりつけておく</p>
-
-<h3>GitHub上で、kokitsuyuzaki.github.ioというリポジトリを作成</h3>
-
-<h3>octopressを取得</h3>
-
-<p>git clone git://github.com/imathis/octopress.git octopress
-cd octopress</p>
-
-<h3>インストール</h3>
-
-<p>bundle &ndash;path vendor/bundle
-bundle exec rake install</p>
-
-<h3>プレビュー</h3>
-
-<p>bundle exec rake preview # 試しに"<a href="http://localhost:4000/">http://localhost:4000/</a>&ldquo;にアクセスしてみる</p>
-
-<h3>初期設定</h3>
-
-<p>bundle exec rake setup_github_pages # &ldquo;<a href="https://github.com/kokitsuyuzaki/kokitsuyuzaki.github.io">https://github.com/kokitsuyuzaki/kokitsuyuzaki.github.io</a>"をコピペ</p>
-
-<h3>テーマをmnmlに変更する</h3>
-
-<p>git clone git://github.com/ioveracker/mnml.git .themes/mnml</p>
-
-<p>rake install[&lsquo;mnml&rsquo;]</p>
-
-<p>rake generate</p>
-
-<p>rake deploy</p>
-
-<h3>_config.yml, source以下のディレクトリ、ファイルを編集</h3>
-
-<h3>GitHubにコミット</h3>
-
-<p>rake gen_deploy</p>
-
-<h3>以降は新しくブログを作成するたびに以下を実行</h3>
-
-<p>bundle exec rake new_post</p>
-
-<h3>参考</h3>
-
-<ul>
-<li><a href="http://blog.shiroyama.us/blog/2014/02/26/octopress/">http://blog.shiroyama.us/blog/2014/02/26/octopress/</a></li>
-</ul>
-
-
-<h3>Octopress Theme</h3>
-
-<ul>
-<li><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</a></li>
-</ul>
-
-
-<h3>mnml</h3>
-
-<ul>
-<li><a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes</a></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-  
-    
-      <h1 class="entry-title"><a href="/blog/2015/12/28/homupeziyi-dong/">ホームページ移動</a></h1>
-      
-      
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2015-12-28T13:28:04+09:00" pubdate data-updated="true"></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>ホームページを
-<a href="http://kokitsuyuzaki.site44.com">http://kokitsuyuzaki.site44.com</a>
-から移動しました。</p>
-</div>
-  
-  
-
-
-    </article>
-  
-</div>
 <aside class="sidebar">
   
     <section>
